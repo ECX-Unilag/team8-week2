@@ -15,5 +15,3 @@ https://www.figma.com/file/xFjw6VYTlxNrt5yHoFPK0N/1OF1
 
 Front-end:  https://ecx-unilag.github.io/team8-week2/MUSIC_PLAYER/index.html
 
-
-
