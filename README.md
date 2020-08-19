@@ -5,7 +5,7 @@ Music Player App
 
 Users can play any music and read the  Lyrics.
 
-Thhe app has the option for users:
+The app has the option for users:
 to upload their own music,
 listen to it while on it,
 watch music videos of their chosen music.
