@@ -1,0 +1,362 @@
+*{
+		font-size:12px;
+		font-family:Montserrat;
+		}
+body{
+		padding:0px;
+		margin:0px;
+		background-color:#121212;
+		}
+.navigation{
+		background-color:#1c1c1c;
+		color:#fff;
+		}
+.top{
+		background-color:#1c1c1c;
+		padding:10px;
+		display:grid;
+		grid-template-rows:1fr;
+		grid-template-columns:30px 1fr 2fr;
+		grid-template-areas:
+		"hamburgerNav appTitle searchBar";
+		align-items: center;
+		}
+.ham{
+		font-size:20px;
+		}
+.title{
+		font-size:18px;
+		color:#6af5f2;
+		font-weight:900;
+		}
+#searchBar{
+		border:.5px solid #1c1c1c;
+		outline:none;
+		padding:8px;
+		border-radius:5px;
+		font-size:10px;
+		}
+.bottom{
+		background-color:#1c1c1c;
+		font-size:14px;
+		text-align:center;
+		width:0;
+		height:0;
+		overflow: hidden;
+		transition: height ease .2s;
+		}
+.bottom > div {
+		padding:10px;
+		}
+.bottom .upload{
+		background: linear-gradient(122.29deg, rgba(31,216,140,0.94) -46.96%, #5733cb 190.8%);
+	  padding:30% 5%;
+		color:#fff;
+		border-radius:20px;
+		padding:10px 20px;
+		width:max-content;
+		margin:auto;
+		}
+.appInfo{
+		background: linear-gradient(122.29deg, rgba(31,216,140,0.94) -46.96%, #5733cb 190.8%);
+	  padding:8pc 3pc;
+		}
+.ready{
+		font-size:30px;
+		font-weight:700;
+   text-align:center;
+   color:#fff;
+		}
+.free{
+		margin:1.5pc auto;
+		text-align:center;
+		font-size:15px;
+		color:#fff;
+		}
+.theStores{
+		width:max-content;
+		display:flex;
+		margin:1pc auto auto auto;
+		}
+.appStore{
+		background:url("SongzApp_Image/appStore.png");
+		background-size:contain;
+		background-repeat:no-repeat;
+		width:100px;
+		height:50px;
+		margin:auto 15px auto auto;
+		}
+.googlePlay{
+		background:url("SongzApp_Image/googlePlay.png");
+		background-size:contain;
+		background-repeat:no-repeat;
+		width:100px;
+		height:50px;
+		}
+
+.trendingSongs, .recommendedSongs, .hotOnTheBlockSongs{
+		background-color:#1c1c1c;
+		paddin:10px;
+		margin:30px auto;
+		}
+.trending, .recommended, .hotSongs{
+		display:grid;
+		grid-template-rows:1fr;
+		grid-template-columns:20px auto 1fr;
+		align-items:center;
+		}
+.nowTrending, .nowRecommended, .nowHot{
+		font-size:14px;
+		color:#fff;
+		}
+.seeTrending, .seeHOB, .seeHot{
+		text-align:right;
+		padding:10px;
+		color:#6af5f2;
+		font-size:10px;
+		}
+.eachSongs{
+		background-color:#1c1c1c;
+		padding:10px;
+		display:grid;
+		grid-template-rows:180px;
+		grid-template-columns:repeat(3,130px);
+		overflow:auto;
+		grid-gap:0px 15px;
+		}
+.song{
+		background-color:#1c1c1c;
+		margi:auto 15px auto auto;
+		display:grid;
+		grid-template-rows:4fr auto 1fr;
+		grid-template-columns:auto 1fr;
+		grid-template-areas:
+		"songPic songPic"
+		"songName songInfo"
+		"songArtist playSong";
+		color:#fff;
+		}
+.wonderfulPic,.beKindPic,.bettyButterPic,.badInfluencePic, .ojoroPic, .AGBabyPic, .callPic, .godzillaPic, .carePic{
+		grid-area:songPic;
+		background-color:#333;
+		}
+.wonderfulPic{
+		background:url("SongzApp_Image/wonderful.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.beKindPic{
+		background:url("SongzApp_Image/be_kind.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.bettyButterPic{
+		background:url("SongzApp_Image/betty_butter.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.badInfluencePic{
+		background:url("SongzApp_Image/bad_influence.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.AGBabyPic{
+		background:url("SongzApp_Image/AG_baby.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.ojoroPic{
+		background:url("SongzApp_Image/ojoro.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.callPic{
+		background:url("SongzApp_Image/call.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.godzillaPic{
+		background:url("SongzApp_Image/godzilla.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.carePic{
+		background:url("SongzApp_Image/care.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.songName{
+		font-weight:700;
+		font-size:10px;
+		padding:5px;
+		}
+.artistName{
+	  padding:5px;
+	  color:rgba(255,255,255,0.6);
+	  font-size:10px;
+		}
+.songInfo{
+		text-align:right;
+		padding:5px;
+		align-self:end;
+		color:#6af5f2;
+		}
+.downloadApp{
+		background: linear-gradient(122.29deg, rgba(31,216,140,0.94) -46.96%, #5733cb 190.8%);
+		padding-top:40px;
+		}
+.appPic{
+		background-color: grey;
+		background:url("SongzApp_Image/app_pic.png");
+		padding:0px 0px 0px 45px;
+		background-size:contain;
+		background-repeat:no-repeat;
+		background-position:center;
+		widt:75%;
+		height:300px;
+		margin:auto;
+		}
+.downloadInfo{
+		padding:15px;
+		}
+.download{
+		font-size:30px;
+		padding:15px 0px;
+		color:#fff;
+		}
+.downloadInfo .join{
+		padding:15px 0px;
+		font-weight:900;
+		font-size:14px;
+		}
+.stores{
+		padding:15px 0px;
+		display:flex;
+		width:max-content;
+		margi:auto;
+		}
+.stores > div{
+		color:#6af5f2;
+		font-weight:600;
+		padding:10px;
+		display:flex;
+		margin:auto 15px auto auto;
+		}
+footer{
+		background-color:#121212;;
+		padding:15px;
+		color:#fff;
+		}
+
+.footerOptions{
+		padding:15px 0px;
+		display:grid;
+		grid-template-rows:1fr 1fr;
+		grid-template-columns:1fr 1fr;
+		grid-template-areas:
+		"browse company"
+		"community terms";
+		grid-gap:20px;
+		}
+.socialIcons{
+		display:flex;
+		}
+.socialIcons .facebook, .socialIcons .twitter, .socialIcons .instagram{
+		margin-right:0px;
+		transform:scale(.5,.5);
+		}
+.socialIcons .facebook{
+		width:25px;
+		height:45px;
+		background:url("SongzApp_Image/facebook.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.socialIcons .twitter{
+		width:50px;
+		height:45px;
+		background:url("SongzApp_Image/twitter.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.socialIcons .instagram{
+		width:50px;
+		height:50px;
+		background:url("SongzApp_Image/instagram.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		}
+.footerOptions > section > div{
+		padding:7px 0px;
+		}
+.browse, .company, .community, .terms{
+		font-weight:600;
+		padding:0px 0px 15px 0px;
+		color:#6af5f2;
+		}
+a:link{
+		color:#fff;
+		text-decoration:none;
+		}
+a:hover{
+		color:hotpink;
+		}
+a:visited{
+		color:#fff;
+		}
+a:active{
+		color:green;
+		}
+
+
+
+
+
+@media(min-width:768px){
+.navigation{
+		display:flex;
+		}
+.top{
+		width:73%;
+		}
+.ham{
+		visibility:hidden;
+		}
+.bottom{
+		width:max-content;
+		height:auto;
+	 display:flex;	
+	 align-items:center;
+		}
+.downloadApp{
+		display:grid;
+		grid-template-rows:1fr;
+		grid-template-columns:1fr 1fr;
+		grid-template-areas:
+		"appPic downloadApp";
+		}
+.appPic{
+		width:70%;
+		}
+.downloadInfo{
+		width:90%;
+		}
+footer{
+		display:grid;
+		grid-template-rows:1fr;
+		grid-template-columns:10% 1fr;
+		}
+.footerOptions{
+		padding:0px;
+		grid-template-rows:1fr;
+		grid-template-columns:repeat(4,1fr);
+		grid-gap:20px;
+		}
+.otherFooterOptions{
+		grid-area:2/1/2/3;
+		display:flex;
+		justify-content: space-between;
+		background-colo: pink;
+		}
+	}
+
