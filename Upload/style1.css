@@ -1,0 +1,207 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+input{
+    width: 500px;
+    height: 25px;
+    background-color: #333333;
+    border: none;
+    margin-top: 20px;
+    background-image: url('search-solid.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    color: #5733CB;
+    font-size: 35px;
+}
+h1, p{
+    margin-top: 25px;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    margin-left: 150px;
+}
+h4{
+    color: #A0A0A0;
+    font-size: 20px;
+    margin-left: 150px;
+}
+h5{
+    margin-left: 300px;
+    font-size: 30px;
+    margin-top: -70px;
+}
+button{
+    background: linear-gradient(122.29deg, rgba(31, 216, 140, 0.94) -46.96%, #5733CB 190.8%);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 15px;
+    color: white;
+}
+#but{
+    margin-top: 50px; 
+    width: 260px; 
+    height: 35px; 
+    margin-left: 37%;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    background: linear-gradient(122.29deg, rgba(31, 216, 140, 0.94) -46.96%, #5733CB 190.8%);
+}
+.box1, .box2, .box3{
+    height: 305px;
+    width: 322px;
+    cursor: pointer;
+}
+.box2, .box3{
+    background-color: #A0A0A0;
+}
+.box{
+    background-color: #333333;
+    width: 1200px;
+    height: 550px;
+    align-items: center;
+    margin-left: 10%;
+    padding: 20px;
+    margin-top: 50px;
+}
+.box4{
+    background-color: #333333;
+    width: 90%;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 150px;
+}
+img{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-left: 100px;
+    margin-top: -70px;
+}
+.para{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -17px;
+}
+.follow{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-top: -60px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+.square{
+    height: 170px;
+    width: 190px;
+    margin-top: -50px;
+    border-radius: 0%;
+    margin-left: 20px;
+}
+.words{
+    margin-left: 80px;
+    margin-top: -120px;
+}
+object{
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+}
+#obj{
+    width: 20px;
+    height: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 750px){
+    input{
+        width: 70px;
+        margin-top: 20px;
+    }
+    header{
+        margin-top: 20px;
+    }
+    button{
+        width: 70px;
+    }
+    #but{
+        margin-left: 75px;
+    }
+    h2{
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .box{
+        flex-direction: column;
+        margin-left: 0;
+        width: 80%;
+    }
+    .box4{
+        margin-left: 0;
+    }
+    .square{
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .words{
+        margin-top: -130px;
+        margin-left: -10px;
+    }
+    .numbers{
+        margin-top: -60px;
+    }
+    .follow{
+        margin-top: -20px;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+        margin-top: -50px;
+    }
+    h5{
+        margin-left: 150px;
+    }
+    .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1, .box2, .box3{
+        margin-top: 20px;
+    }
+    .box{
+        height: 1200px;
+        margin-left: 25px;
+    }
+    button{
+        margin-right: 40px;
+    }
+}
