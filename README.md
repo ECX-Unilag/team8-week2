@@ -1,9 +1,9 @@
 # team8-week2
 
 
-Music Player App
+## Music Player App
 
-Users can play any music and read the  Lyrics.
+#### Users can play any music and read the  Lyrics.
 
 The app has the option for users:
 to upload their own music,
@@ -12,3 +12,6 @@ watch music videos of their chosen music.
 
 Design link:
 https://www.figma.com/file/xFjw6VYTlxNrt5yHoFPK0N/1OF1
+
+## Direct Link to App:
+
